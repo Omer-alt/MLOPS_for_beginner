@@ -50,7 +50,17 @@ def test_answer(pred_unitest):
 test_answer(pred_unitest)
 
 
-
+# Data performance 
+print(classification_report(y_test, y_pred))
+# Generate the confusion matrix
+cm = confusion_matrix(y_test, y_pred)
+# Plot the confusion matrix
+plt.figure(figsize=(9, 5))
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', cbar=False)
+plt.xlabel('Predicted Label')
+plt.ylabel('True Label')
+plt.title('Confusion Matrix LogReg')
+plt.show()
 
 
 
