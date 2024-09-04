@@ -1,0 +1,18 @@
+pytest
+
+pytest-cov
+
+docopt == 0.6.1
+
+pytest-asyncio~=0.23.7
+
+# To load dataset and train
+scikit-learn
+
+# Virsualisation of data
+matplotlib
+
+
+
+
+
