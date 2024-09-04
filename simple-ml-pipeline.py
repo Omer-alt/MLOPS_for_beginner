@@ -40,6 +40,16 @@ print(y_expected)
 pred_unitest = logistic_model_ridge.predict(x_unitest)
 
 
+def test_answer(pred_unitest):
+    if pred_unitest == y_expected:
+        print("Unit test passed")
+    else:
+        print("Unit test failed", pred_unitest, y_expected )
+    
+    
+test_answer(pred_unitest)
+
+
 
 
 
