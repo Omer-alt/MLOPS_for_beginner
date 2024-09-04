@@ -18,8 +18,26 @@ _ = ax.legend(
 )
 plt.show()
 
+X = iris.data
+Y = iris.target
+# Spliting data
+x_train,x_test,y_train,y_test=train_test_split(X, Y, test_size=0.2)
 
+# Train logistique regression model
+logistic_model_ridge = LogisticRegression(multi_class='multinomial', solver='saga', penalty='l2', max_iter=1000, C=1.1, class_weight='balanced')
+logistic_model_ridge.fit(x_train, y_train)
 
+# Make predictions
+y_pred = logistic_model_ridge.predict(x_test)
+
+# Evaluate the model
+print("Accuracy:", accuracy_score(y_test, y_pred))
+
+# Write Unit test
+x_unitest = iris.data[:1, :]
+y_expected = iris.target[0]
+print(y_expected)
+pred_unitest = logistic_model_ridge.predict(x_unitest)
 
 
 
