@@ -29,7 +29,7 @@ class IrisDataset:
 if __name__ == "__main__":
     iris_dataset = IrisDataset()
     iris_df = iris_dataset.load_dataset()
-    print(iris_df.head())
+    print(iris_dataset.displays_rows())
 
     
 
