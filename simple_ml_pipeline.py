@@ -30,13 +30,16 @@ class IrisDataset:
         return df
     
     def displays_rows(self, number_rows=5):
+        if number_rows <= 0:
+            raise ValueError("Le nombre de lignes doit être un entier positif.")
+
         return iris_df.head(number_rows)
     
     
 class Model:
     
     def __init__(self):
-        self.model = LogisticRegression(multi_class='multinomial', solver='saga', penalty='l2', max_iter=200, C=1.1, class_weight='balanced')
+        self.model = LogisticRegression( solver='saga', penalty='l2', max_iter=1000, C=1.1, class_weight='balanced')
     
     def train(self, df):
         X_train, X_test, y_train, y_test = train_test_split(
