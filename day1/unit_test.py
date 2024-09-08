@@ -1,6 +1,6 @@
 import pytest
 
-from simple_ml_pipeline import IrisDataset, Model
+from day1.simple_ml_pipeline import IrisDataset, Model
 
 def test_load_dataset():
     iris_dataset = IrisDataset()
