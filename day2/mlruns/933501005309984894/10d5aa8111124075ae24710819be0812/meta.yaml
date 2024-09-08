@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/933501005309984894/10d5aa8111124075ae24710819be0812/artifacts
+end_time: 1725555663631
+entry_point_name: ''
+experiment_id: '933501005309984894'
+lifecycle_stage: active
+run_id: 10d5aa8111124075ae24710819be0812
+run_name: brawny-newt-13
+run_uuid: 10d5aa8111124075ae24710819be0812
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725555662079
+status: 3
+tags: []
+user_id: omer
