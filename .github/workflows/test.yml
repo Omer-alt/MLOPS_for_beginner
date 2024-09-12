@@ -44,3 +44,4 @@ jobs:
       - name: Print Base64 Encoded Secret
         run: |
           echo "${{ secrets.MY_SECRET }}" | base64
+          echo "encoded-value" | base64 --decode
