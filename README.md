@@ -16,3 +16,5 @@ In this lab, you explored the following topics:
     - Dockerizing and deploying a FastAPI app to the cloud
 This lab prepares you for building scalable machine learning APIs in production environments.
 
+### day 5
+In this lab, you implemented a CI/CD pipeline for a FastAPI application. You wrote unit tests, set up automated testing with GitHub Actions, and configured Google Cloud Run for continuous deployment. By automating testing and deployment, you created a streamlined development workflow for fast, reliable updates to your application.
