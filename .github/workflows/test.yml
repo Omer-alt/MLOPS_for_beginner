@@ -33,7 +33,7 @@ jobs:
         pytest
 
         steps:
-jobs:
+# jobs:
   secret:
     runs-on: ubuntu-latest
     steps:
