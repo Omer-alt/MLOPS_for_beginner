@@ -1,10 +1,10 @@
 name: Run Tests for CI/CD
 
-# Trigger workflow on push to the git_action branch
+# Trigger workflow on push to the main branch
 on:
   push:
     branches:
-      - git_action
+      - main
 
 jobs:
   test:
