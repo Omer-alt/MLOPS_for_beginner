@@ -33,7 +33,11 @@ jobs:
         pytest
 
         steps:
+jobs:
+  secret:
+    runs-on: ubuntu-latest
 
+    steps:
     # Step 5: Print GitHub Secrets and Variables  
     - name: Print GitHub Secrets and Variables
       run: |
