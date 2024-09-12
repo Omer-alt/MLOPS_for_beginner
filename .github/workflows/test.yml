@@ -36,10 +36,9 @@ jobs:
 jobs:
   secret:
     runs-on: ubuntu-latest
-
     steps:
-    # Step 5: Print GitHub Secrets and Variables  
-    - name: Print GitHub Secrets and Variables
-      run: |
-        echo "My Variable: ${{ vars.MY_VARIABLE }}"
-        echo "My Secret: ${{ secrets.MY_SECRET }}"
+      # Step 5: Print GitHub Secrets and Variables  
+      - name: Print GitHub Secrets and Variables
+        run: |
+          echo "My Variable: ${{ vars.MY_VARIABLE }}"
+          echo "My Secret: ${{ secrets.MY_SECRET }}"
