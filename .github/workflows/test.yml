@@ -31,3 +31,11 @@ jobs:
     - name: Run tests
       run: |
         pytest
+
+        steps:
+
+    # Step 5: Print GitHub Secrets and Variables  
+    - name: Print GitHub Secrets and Variables
+      run: |
+        echo "My Variable: ${{ vars.MY_VARIABLE }}"
+        echo "My Secret: ${{ secrets.MY_SECRET }}"
