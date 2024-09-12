@@ -12,6 +12,12 @@ scikit-learn
 # Virsualisation of data
 matplotlib
 
+# for rest API
+
+uvicorn==0.30.6
+fastapi==0.114.0
+fastapi-cli==0.0.5
+
 
 
 
