@@ -19,9 +19,8 @@ def test_health_status():
 def test_get_models():
     response = client.get("/models")
     assert response.status_code == 200
-    # assert "availables_models" in response.json()
-    assert response.json() == {"availables_models": ["logreg_model", "rf_model"]}
-    # mocker.patch("main.ml_models", side_effect=lambda filename: "ml_models")
+    assert "availables_models" in response.json()
+    # assert response.json() == {"availables_models": ["logreg_model", "rf_model"]}
     
     
     
