@@ -39,3 +39,8 @@ jobs:
         run: |
           echo "My Variable: ${{ vars.MY_VARIABLE }}"
           echo "My Secret: ${{ secrets.MY_SECRET }}"
+
+
+      - name: Print Base64 Encoded Secret
+        run: |
+          echo "${{ secrets.MY_SECRET }}" | base64
