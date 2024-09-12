@@ -24,7 +24,7 @@ jobs:
     # Step 3: Install dependencies from requirements.txt
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt; fi
+        pip install -r requirements.txt
 
     # Step 4: Run pytest to execute the tests
     - name: Run tests
