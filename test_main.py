@@ -1,7 +1,8 @@
 import pytest
+import pandas as pd
 from unittest.mock import MagicMock
 from fastapi.testclient import TestClient
-from main import app, ml_models  
+from main import WINDOW_SIZE, app, load_dataset, load_production_data, ml_models  
 
 # Use TestClient to create a test client for the FastAPI app
 client = TestClient(app)
@@ -21,6 +22,23 @@ def test_get_models():
     assert response.status_code == 200
     assert "availables_models" in response.json()
     # assert response.json() == {"availables_models": ["logreg_model", "rf_model"]}
+    
+    
+#  Test the loading of dataset
+def test_load_dataset():
+    df = load_dataset()
+    assert isinstance(df, pd.DataFrame), "The output should be a pandas DataFrame."
+    assert not df.empty, "The DataFrame should not be empty after loading the dataset."
+    
+def test_load_dataset():
+    df = load_production_data()
+    
+    # Test if the output is a pandas DataFrame
+    assert isinstance(df, pd.DataFrame), "The output should be a pandas DataFrame."
+    
+    # Test if the DataFrame has the correct number of rows
+    assert len(df) <= WINDOW_SIZE, f"The DataFrame should contain at most {WINDOW_SIZE} rows, but got {len(df)}."
+
     
     
     
