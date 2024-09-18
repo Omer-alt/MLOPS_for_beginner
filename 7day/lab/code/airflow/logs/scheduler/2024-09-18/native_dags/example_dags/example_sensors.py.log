@@ -1,0 +1,120 @@
+[2024-09-18T14:49:02.063+0000] {processor.py:186} INFO - Started process (PID=93924) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T14:49:02.063+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-18T14:49:02.063+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:02.063+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T14:49:02.068+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T14:49:02.092+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:02.092+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T14:49:02.142+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:02.142+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_sensors
+[2024-09-18T14:49:02.145+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:02.145+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:example_sensors
+[2024-09-18T14:49:02.146+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:02.146+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_sensors
+[2024-09-18T14:49:02.148+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:02.148+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_sensors
+[2024-09-18T14:49:02.150+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:02.150+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_sensors
+[2024-09-18T14:49:02.151+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:02.151+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_sensors
+[2024-09-18T14:49:02.153+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:02.153+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_sensors
+[2024-09-18T14:49:02.153+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:02.153+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:49:02.157+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:02.156+0000] {dag.py:3252} INFO - Creating ORM DAG for example_sensors
+[2024-09-18T14:49:02.157+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:02.157+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-18T14:49:02.161+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.099 seconds
+[2024-09-18T14:50:22.227+0000] {processor.py:186} INFO - Started process (PID=94187) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T14:50:22.228+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-18T14:50:22.229+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:50:22.229+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T14:50:22.234+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T14:50:22.257+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:50:22.257+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T14:50:22.264+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:50:22.264+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:50:22.267+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:50:22.267+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-18T14:50:22.272+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.045 seconds
+[2024-09-18T14:52:00.877+0000] {processor.py:186} INFO - Started process (PID=94416) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T14:52:00.878+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-18T14:52:00.879+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:52:00.879+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T14:52:00.885+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T14:52:00.908+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:52:00.908+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T14:52:00.915+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:52:00.915+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:52:00.918+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:52:00.918+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-18T14:52:00.923+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.047 seconds
+[2024-09-18T14:53:41.138+0000] {processor.py:186} INFO - Started process (PID=94579) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T14:53:41.139+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-18T14:53:41.139+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:41.139+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T14:53:41.144+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T14:53:41.169+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:41.169+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T14:53:41.179+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:41.179+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:53:41.188+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:41.187+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-18T14:53:41.195+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.058 seconds
+[2024-09-18T15:21:22.347+0000] {processor.py:186} INFO - Started process (PID=97161) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:21:22.348+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-18T15:21:22.348+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:21:22.348+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:21:22.353+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:21:22.378+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:21:22.377+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T15:21:22.385+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:21:22.385+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:21:22.388+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:21:22.388+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-18T15:21:22.393+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.047 seconds
+[2024-09-18T15:22:42.215+0000] {processor.py:186} INFO - Started process (PID=97296) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:22:42.216+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-18T15:22:42.216+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:42.216+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:22:42.221+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:22:42.245+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:42.245+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T15:22:42.252+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:42.252+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:22:42.255+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:42.255+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-18T15:22:42.260+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.046 seconds
+[2024-09-18T15:25:45.020+0000] {processor.py:186} INFO - Started process (PID=97633) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:25:45.021+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-18T15:25:45.021+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:25:45.021+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:25:45.025+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:25:45.049+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:25:45.049+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T15:25:45.056+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:25:45.056+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:25:45.059+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:25:45.059+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-18T15:25:45.064+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.045 seconds
+[2024-09-18T15:27:05.513+0000] {processor.py:186} INFO - Started process (PID=97792) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:27:05.514+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-18T15:27:05.514+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:27:05.514+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:27:05.518+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:27:05.543+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:27:05.543+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T15:27:05.550+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:27:05.550+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:27:05.553+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:27:05.553+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-18T15:27:05.559+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.047 seconds
+[2024-09-18T15:28:25.618+0000] {processor.py:186} INFO - Started process (PID=97992) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:28:25.619+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-18T15:28:25.619+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:25.619+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:28:25.625+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:28:25.649+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:25.649+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T15:28:25.656+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:25.656+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:28:25.659+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:25.659+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-18T15:28:25.664+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.047 seconds
+[2024-09-18T15:30:04.336+0000] {processor.py:186} INFO - Started process (PID=98244) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:30:04.336+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-18T15:30:04.337+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:30:04.337+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:30:04.342+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:30:04.365+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:30:04.365+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T15:30:04.373+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:30:04.373+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:30:04.375+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:30:04.375+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-18T15:30:04.381+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.046 seconds
+[2024-09-18T15:31:41.013+0000] {processor.py:186} INFO - Started process (PID=98531) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:31:41.014+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-18T15:31:41.014+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:41.014+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:31:41.019+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:31:41.043+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:41.043+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T15:31:41.050+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:41.050+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:31:41.053+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:41.053+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-18T15:31:41.058+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.046 seconds
+[2024-09-18T15:33:31.666+0000] {processor.py:186} INFO - Started process (PID=98822) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:33:31.667+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-18T15:33:31.667+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:33:31.667+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:33:31.672+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:33:31.695+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:33:31.695+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T15:33:31.702+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:33:31.702+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:33:31.705+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:33:31.705+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-18T15:33:31.711+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.045 seconds
+[2024-09-18T15:34:42.985+0000] {processor.py:186} INFO - Started process (PID=98976) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:34:42.986+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-18T15:34:42.986+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:34:42.986+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:34:42.990+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:34:43.017+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:34:43.017+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T15:34:43.025+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:34:43.025+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:34:43.028+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:34:43.028+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-18T15:34:43.034+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.050 seconds
+[2024-09-18T15:36:03.177+0000] {processor.py:186} INFO - Started process (PID=99129) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:36:03.177+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-18T15:36:03.177+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:36:03.177+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:36:03.183+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-18T15:36:03.210+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:36:03.210+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T15:36:03.218+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:36:03.218+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:36:03.221+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:36:03.221+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-18T15:36:03.227+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.051 seconds

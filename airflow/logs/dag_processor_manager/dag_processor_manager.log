@@ -1,0 +1,13 @@
+[2024-09-18T14:23:53.325+0000] {manager.py:486} INFO - Processing files using up to 1 processes at a time 
+[2024-09-18T14:23:53.325+0000] {manager.py:487} INFO - Process each file at most once every 30 seconds
+[2024-09-18T14:23:53.325+0000] {manager.py:488} INFO - Checking for new files in /Users/omer/Desktop/MLOPS/airflow/dags every 300 seconds
+[2024-09-18T14:23:53.325+0000] {manager.py:832} INFO - Searching for files in /Users/omer/Desktop/MLOPS/airflow/dags
+[2024-09-18T14:23:53.326+0000] {manager.py:835} INFO - There are 0 files in /Users/omer/Desktop/MLOPS/airflow/dags
+[2024-09-18T14:28:53.547+0000] {manager.py:832} INFO - Searching for files in /Users/omer/Desktop/MLOPS/airflow/dags
+[2024-09-18T14:28:53.550+0000] {manager.py:835} INFO - There are 0 files in /Users/omer/Desktop/MLOPS/airflow/dags
+[2024-09-18T14:33:53.709+0000] {manager.py:832} INFO - Searching for files in /Users/omer/Desktop/MLOPS/airflow/dags
+[2024-09-18T14:33:53.712+0000] {manager.py:835} INFO - There are 0 files in /Users/omer/Desktop/MLOPS/airflow/dags
+[2024-09-18T14:38:53.893+0000] {manager.py:832} INFO - Searching for files in /Users/omer/Desktop/MLOPS/airflow/dags
+[2024-09-18T14:38:53.895+0000] {manager.py:835} INFO - There are 0 files in /Users/omer/Desktop/MLOPS/airflow/dags
+[2024-09-18T14:43:54.107+0000] {manager.py:832} INFO - Searching for files in /Users/omer/Desktop/MLOPS/airflow/dags
+[2024-09-18T14:43:54.109+0000] {manager.py:835} INFO - There are 0 files in /Users/omer/Desktop/MLOPS/airflow/dags

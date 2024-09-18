@@ -1,0 +1,78 @@
+[2024-09-18T14:49:43.533+0000] {processor.py:186} INFO - Started process (PID=94068) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T14:49:43.533+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-09-18T14:49:43.533+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:43.533+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T14:49:43.537+0000] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T14:49:43.606+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:43.606+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_bash_operator
+[2024-09-18T14:49:43.609+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:43.609+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:example_bash_operator
+[2024-09-18T14:49:43.610+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:43.610+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_bash_operator
+[2024-09-18T14:49:43.612+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:43.612+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_bash_operator
+[2024-09-18T14:49:43.614+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:43.614+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_bash_operator
+[2024-09-18T14:49:43.615+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:43.615+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_bash_operator
+[2024-09-18T14:49:43.616+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:43.616+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_bash_operator
+[2024-09-18T14:49:43.618+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:43.618+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:49:43.622+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:43.622+0000] {dag.py:3252} INFO - Creating ORM DAG for example_bash_operator
+[2024-09-18T14:49:43.626+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:43.626+0000] {dag.py:4156} INFO - Setting next_dagrun for example_bash_operator to 2024-09-17 00:00:00+00:00, run_after=2024-09-18 00:00:00+00:00
+[2024-09-18T14:49:43.637+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.105 seconds
+[2024-09-18T14:51:22.540+0000] {processor.py:186} INFO - Started process (PID=94326) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T14:51:22.541+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-09-18T14:51:22.541+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:22.541+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T14:51:22.545+0000] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T14:51:22.574+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:22.574+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:51:22.579+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:22.579+0000] {dag.py:4156} INFO - Setting next_dagrun for example_bash_operator to 2024-09-17 00:00:00+00:00, run_after=2024-09-18 00:00:00+00:00
+[2024-09-18T14:51:22.585+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.045 seconds
+[2024-09-18T14:53:03.998+0000] {processor.py:186} INFO - Started process (PID=94529) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T14:53:03.999+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-09-18T14:53:04.000+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:04.000+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T14:53:04.003+0000] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T14:53:04.030+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:04.030+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:53:04.035+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:04.035+0000] {dag.py:4156} INFO - Setting next_dagrun for example_bash_operator to 2024-09-17 00:00:00+00:00, run_after=2024-09-18 00:00:00+00:00
+[2024-09-18T14:53:04.040+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.043 seconds
+[2024-09-18T14:54:43.560+0000] {processor.py:186} INFO - Started process (PID=94710) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T14:54:43.561+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-09-18T14:54:43.561+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:54:43.561+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T14:54:43.565+0000] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T14:54:43.594+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:54:43.594+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:54:43.599+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:54:43.599+0000] {dag.py:4156} INFO - Setting next_dagrun for example_bash_operator to 2024-09-17 00:00:00+00:00, run_after=2024-09-18 00:00:00+00:00
+[2024-09-18T14:54:43.604+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.044 seconds
+[2024-09-18T15:22:02.891+0000] {processor.py:186} INFO - Started process (PID=97232) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T15:22:02.892+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-09-18T15:22:02.892+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:02.892+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T15:22:02.896+0000] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T15:22:02.924+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:02.924+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:22:02.929+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:02.928+0000] {dag.py:4156} INFO - Setting next_dagrun for example_bash_operator to 2024-09-17 00:00:00+00:00, run_after=2024-09-18 00:00:00+00:00
+[2024-09-18T15:22:02.934+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.043 seconds
+[2024-09-18T15:27:47.878+0000] {processor.py:186} INFO - Started process (PID=97855) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T15:27:47.879+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-09-18T15:27:47.879+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:27:47.879+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T15:27:47.883+0000] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T15:27:47.911+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:27:47.911+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:27:47.916+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:27:47.916+0000] {dag.py:4156} INFO - Setting next_dagrun for example_bash_operator to 2024-09-17 00:00:00+00:00, run_after=2024-09-18 00:00:00+00:00
+[2024-09-18T15:27:47.921+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.044 seconds
+[2024-09-18T15:29:27.641+0000] {processor.py:186} INFO - Started process (PID=98132) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T15:29:27.642+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-09-18T15:29:27.643+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:29:27.643+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T15:29:27.646+0000] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T15:29:27.675+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:29:27.675+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:29:27.680+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:29:27.680+0000] {dag.py:4156} INFO - Setting next_dagrun for example_bash_operator to 2024-09-17 00:00:00+00:00, run_after=2024-09-18 00:00:00+00:00
+[2024-09-18T15:29:27.685+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.045 seconds
+[2024-09-18T15:31:05.793+0000] {processor.py:186} INFO - Started process (PID=98414) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T15:31:05.794+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-09-18T15:31:05.794+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:05.794+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T15:31:05.798+0000] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T15:31:05.826+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:05.826+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:31:05.832+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:05.832+0000] {dag.py:4156} INFO - Setting next_dagrun for example_bash_operator to 2024-09-17 00:00:00+00:00, run_after=2024-09-18 00:00:00+00:00
+[2024-09-18T15:31:05.837+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.045 seconds
+[2024-09-18T15:32:43.259+0000] {processor.py:186} INFO - Started process (PID=98688) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T15:32:43.260+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-09-18T15:32:43.260+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:32:43.260+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T15:32:43.264+0000] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T15:32:43.294+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:32:43.294+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:32:43.299+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:32:43.299+0000] {dag.py:4156} INFO - Setting next_dagrun for example_bash_operator to 2024-09-17 00:00:00+00:00, run_after=2024-09-18 00:00:00+00:00
+[2024-09-18T15:32:43.304+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.046 seconds
+[2024-09-18T15:35:24.328+0000] {processor.py:186} INFO - Started process (PID=99063) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T15:35:24.329+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-09-18T15:35:24.329+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:35:24.329+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T15:35:24.333+0000] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-09-18T15:35:24.362+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:35:24.362+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:35:24.368+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:35:24.368+0000] {dag.py:4156} INFO - Setting next_dagrun for example_bash_operator to 2024-09-17 00:00:00+00:00, run_after=2024-09-18 00:00:00+00:00
+[2024-09-18T15:35:24.374+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.046 seconds

@@ -1,0 +1,78 @@
+[2024-09-18T14:49:45.181+0000] {processor.py:186} INFO - Started process (PID=94069) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T14:49:45.181+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-09-18T14:49:45.181+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:45.181+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T14:49:45.196+0000] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T14:49:45.264+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:45.264+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:example_bash_decorator
+[2024-09-18T14:49:45.267+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:45.267+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_bash_decorator
+[2024-09-18T14:49:45.268+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:45.268+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_bash_decorator
+[2024-09-18T14:49:45.270+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:45.270+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_bash_decorator
+[2024-09-18T14:49:45.272+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:45.271+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_bash_decorator
+[2024-09-18T14:49:45.273+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:45.273+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_bash_decorator
+[2024-09-18T14:49:45.274+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:45.274+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_bash_decorator
+[2024-09-18T14:49:45.275+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:45.274+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:49:45.278+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:45.277+0000] {dag.py:3252} INFO - Creating ORM DAG for example_bash_decorator
+[2024-09-18T14:49:45.278+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:45.278+0000] {dag.py:4156} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-09-18T14:49:45.281+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py took 0.101 seconds
+[2024-09-18T14:51:23.751+0000] {processor.py:186} INFO - Started process (PID=94327) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T14:51:23.751+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-09-18T14:51:23.752+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:23.752+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T14:51:23.766+0000] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T14:51:23.836+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:23.836+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:51:23.839+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:23.839+0000] {dag.py:4156} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-09-18T14:51:23.846+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py took 0.096 seconds
+[2024-09-18T14:53:05.576+0000] {processor.py:186} INFO - Started process (PID=94530) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T14:53:05.577+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-09-18T14:53:05.577+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:05.577+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T14:53:05.589+0000] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T14:53:05.657+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:05.657+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:53:05.660+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:05.660+0000] {dag.py:4156} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-09-18T14:53:05.666+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py took 0.091 seconds
+[2024-09-18T14:54:44.286+0000] {processor.py:186} INFO - Started process (PID=94711) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T14:54:44.287+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-09-18T14:54:44.287+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:54:44.287+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T14:54:44.300+0000] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T14:54:44.369+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:54:44.369+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:54:44.372+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:54:44.372+0000] {dag.py:4156} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-09-18T14:54:44.377+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py took 0.093 seconds
+[2024-09-18T15:22:04.101+0000] {processor.py:186} INFO - Started process (PID=97233) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T15:22:04.102+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-09-18T15:22:04.102+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:04.102+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T15:22:04.114+0000] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T15:22:04.184+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:04.184+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:22:04.187+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:04.187+0000] {dag.py:4156} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-09-18T15:22:04.193+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py took 0.092 seconds
+[2024-09-18T15:27:49.532+0000] {processor.py:186} INFO - Started process (PID=97859) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T15:27:49.532+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-09-18T15:27:49.532+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:27:49.532+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T15:27:49.545+0000] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T15:27:49.619+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:27:49.619+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:27:49.622+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:27:49.622+0000] {dag.py:4156} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-09-18T15:27:49.628+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py took 0.097 seconds
+[2024-09-18T15:29:29.220+0000] {processor.py:186} INFO - Started process (PID=98141) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T15:29:29.222+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-09-18T15:29:29.222+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:29:29.222+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T15:29:29.234+0000] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T15:29:29.305+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:29:29.305+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:29:29.308+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:29:29.308+0000] {dag.py:4156} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-09-18T15:29:29.313+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py took 0.094 seconds
+[2024-09-18T15:31:07.080+0000] {processor.py:186} INFO - Started process (PID=98415) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T15:31:07.081+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-09-18T15:31:07.081+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:07.081+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T15:31:07.094+0000] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T15:31:07.164+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:07.164+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:31:07.166+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:07.166+0000] {dag.py:4156} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-09-18T15:31:07.172+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py took 0.093 seconds
+[2024-09-18T15:32:44.865+0000] {processor.py:186} INFO - Started process (PID=98692) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T15:32:44.866+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-09-18T15:32:44.866+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:32:44.866+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T15:32:44.878+0000] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T15:32:44.949+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:32:44.949+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:32:44.952+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:32:44.952+0000] {dag.py:4156} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-09-18T15:32:44.957+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py took 0.092 seconds
+[2024-09-18T15:35:25.980+0000] {processor.py:186} INFO - Started process (PID=99064) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T15:35:25.981+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-09-18T15:35:25.981+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:35:25.981+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T15:35:25.994+0000] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-09-18T15:35:26.066+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:35:26.066+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:35:26.068+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:35:26.068+0000] {dag.py:4156} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-09-18T15:35:26.073+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_bash_decorator.py took 0.094 seconds

@@ -1,0 +1,192 @@
+[2024-09-18T14:48:52.425+0000] {processor.py:186} INFO - Started process (PID=93898) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T14:48:52.426+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-09-18T14:48:52.426+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:52.426+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T14:48:52.453+0000] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T14:48:52.457+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:52.457+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T14:48:52.507+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:52.507+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:example_subdag_operator
+[2024-09-18T14:48:52.510+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:52.510+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_subdag_operator
+[2024-09-18T14:48:52.511+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:52.511+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_subdag_operator
+[2024-09-18T14:48:52.513+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:52.513+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_subdag_operator
+[2024-09-18T14:48:52.515+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:52.514+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_subdag_operator
+[2024-09-18T14:48:52.516+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:52.516+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_subdag_operator
+[2024-09-18T14:48:52.518+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:52.518+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_subdag_operator
+[2024-09-18T14:48:52.518+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:52.518+0000] {dag.py:3229} INFO - Sync 3 DAGs
+[2024-09-18T14:48:52.521+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:52.521+0000] {dag.py:3252} INFO - Creating ORM DAG for example_subdag_operator
+[2024-09-18T14:48:52.521+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:52.521+0000] {dag.py:3252} INFO - Creating ORM DAG for example_subdag_operator.section-2
+[2024-09-18T14:48:52.521+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:52.521+0000] {dag.py:3252} INFO - Creating ORM DAG for example_subdag_operator.section-1
+[2024-09-18T14:48:52.523+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:52.523+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-09-18T14:48:52.523+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:52.523+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T14:48:52.524+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:52.524+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T14:48:52.525+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:52.525+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-18T14:48:52.527+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:52.527+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T14:48:52.527+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:52.527+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T14:48:52.531+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.107 seconds
+[2024-09-18T14:50:12.596+0000] {processor.py:186} INFO - Started process (PID=94150) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T14:50:12.597+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-09-18T14:50:12.597+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:50:12.597+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T14:50:12.626+0000] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T14:50:12.630+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:50:12.630+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T14:50:12.635+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:50:12.634+0000] {dag.py:3229} INFO - Sync 3 DAGs
+[2024-09-18T14:50:12.639+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:50:12.639+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-09-18T14:50:12.640+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:50:12.640+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T14:50:12.640+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:50:12.640+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T14:50:12.642+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:50:12.642+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-18T14:50:12.643+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:50:12.643+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T14:50:12.643+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:50:12.643+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T14:50:12.647+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.051 seconds
+[2024-09-18T14:51:51.108+0000] {processor.py:186} INFO - Started process (PID=94402) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T14:51:51.108+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-09-18T14:51:51.109+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:51.109+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T14:51:51.139+0000] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T14:51:51.143+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:51.143+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T14:51:51.149+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:51.148+0000] {dag.py:3229} INFO - Sync 3 DAGs
+[2024-09-18T14:51:51.154+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:51.154+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-09-18T14:51:51.155+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:51.155+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T14:51:51.156+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:51.156+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T14:51:51.158+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:51.157+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-18T14:51:51.159+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:51.159+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T14:51:51.159+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:51.159+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T14:51:51.163+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.057 seconds
+[2024-09-18T14:53:31.420+0000] {processor.py:186} INFO - Started process (PID=94570) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T14:53:31.421+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-09-18T14:53:31.421+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:31.421+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T14:53:31.449+0000] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T14:53:31.453+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:31.453+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T14:53:31.457+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:31.457+0000] {dag.py:3229} INFO - Sync 3 DAGs
+[2024-09-18T14:53:31.462+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:31.462+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-09-18T14:53:31.463+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:31.463+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T14:53:31.463+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:31.463+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T14:53:31.464+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:31.464+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-18T14:53:31.465+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:31.465+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T14:53:31.465+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:31.465+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T14:53:31.469+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.050 seconds
+[2024-09-18T15:21:12.769+0000] {processor.py:186} INFO - Started process (PID=97151) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:21:12.770+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-09-18T15:21:12.770+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:21:12.770+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:21:12.798+0000] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:21:12.802+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:21:12.802+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T15:21:12.807+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:21:12.807+0000] {dag.py:3229} INFO - Sync 3 DAGs
+[2024-09-18T15:21:12.812+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:21:12.811+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-09-18T15:21:12.812+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:21:12.812+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T15:21:12.813+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:21:12.813+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T15:21:12.814+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:21:12.814+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-18T15:21:12.815+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:21:12.815+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T15:21:12.815+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:21:12.815+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T15:21:12.819+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.051 seconds
+[2024-09-18T15:22:31.655+0000] {processor.py:186} INFO - Started process (PID=97281) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:22:31.656+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-09-18T15:22:31.656+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:31.656+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:22:31.683+0000] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:22:31.687+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:31.687+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T15:22:31.691+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:31.691+0000] {dag.py:3229} INFO - Sync 3 DAGs
+[2024-09-18T15:22:31.696+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:31.696+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-09-18T15:22:31.697+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:31.697+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T15:22:31.697+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:31.697+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T15:22:31.698+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:31.698+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-18T15:22:31.699+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:31.699+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T15:22:31.699+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:31.699+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T15:22:31.703+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.049 seconds
+[2024-09-18T15:25:35.526+0000] {processor.py:186} INFO - Started process (PID=97614) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:25:35.527+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-09-18T15:25:35.527+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:25:35.527+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:25:35.554+0000] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:25:35.558+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:25:35.558+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T15:25:35.563+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:25:35.562+0000] {dag.py:3229} INFO - Sync 3 DAGs
+[2024-09-18T15:25:35.567+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:25:35.567+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-09-18T15:25:35.568+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:25:35.568+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T15:25:35.568+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:25:35.568+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T15:25:35.570+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:25:35.570+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-18T15:25:35.571+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:25:35.571+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T15:25:35.571+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:25:35.571+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T15:25:35.574+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.050 seconds
+[2024-09-18T15:26:56.202+0000] {processor.py:186} INFO - Started process (PID=97774) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:26:56.202+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-09-18T15:26:56.203+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:26:56.203+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:26:56.230+0000] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:26:56.234+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:26:56.234+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T15:26:56.239+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:26:56.239+0000] {dag.py:3229} INFO - Sync 3 DAGs
+[2024-09-18T15:26:56.243+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:26:56.243+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-09-18T15:26:56.244+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:26:56.244+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T15:26:56.244+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:26:56.244+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T15:26:56.246+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:26:56.246+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-18T15:26:56.247+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:26:56.247+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T15:26:56.247+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:26:56.247+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T15:26:56.251+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.049 seconds
+[2024-09-18T15:28:15.974+0000] {processor.py:186} INFO - Started process (PID=97973) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:28:15.974+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-09-18T15:28:15.974+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:15.974+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:28:16.002+0000] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:28:16.006+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:16.006+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T15:28:16.010+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:16.010+0000] {dag.py:3229} INFO - Sync 3 DAGs
+[2024-09-18T15:28:16.015+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:16.015+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-09-18T15:28:16.016+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:16.016+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T15:28:16.016+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:16.016+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T15:28:16.017+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:16.017+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-18T15:28:16.018+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:16.018+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T15:28:16.018+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:16.018+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T15:28:16.022+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.050 seconds
+[2024-09-18T15:29:54.730+0000] {processor.py:186} INFO - Started process (PID=98207) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:29:54.731+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-09-18T15:29:54.732+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:29:54.732+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:29:54.760+0000] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:29:54.765+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:29:54.765+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T15:29:54.769+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:29:54.769+0000] {dag.py:3229} INFO - Sync 3 DAGs
+[2024-09-18T15:29:54.774+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:29:54.774+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-09-18T15:29:54.775+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:29:54.775+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T15:29:54.775+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:29:54.775+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T15:29:54.776+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:29:54.776+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-18T15:29:54.777+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:29:54.777+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T15:29:54.777+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:29:54.777+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T15:29:54.781+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.052 seconds
+[2024-09-18T15:31:30.604+0000] {processor.py:186} INFO - Started process (PID=98482) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:31:30.605+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-09-18T15:31:30.605+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:30.605+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:31:30.632+0000] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:31:30.636+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:30.635+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T15:31:30.640+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:30.640+0000] {dag.py:3229} INFO - Sync 3 DAGs
+[2024-09-18T15:31:30.644+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:30.644+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-09-18T15:31:30.645+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:30.645+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T15:31:30.646+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:30.645+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T15:31:30.647+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:30.647+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-18T15:31:30.648+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:30.648+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T15:31:30.648+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:30.648+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T15:31:30.652+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.049 seconds
+[2024-09-18T15:33:22.148+0000] {processor.py:186} INFO - Started process (PID=98796) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:33:22.149+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-09-18T15:33:22.149+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:33:22.149+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:33:22.178+0000] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:33:22.182+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:33:22.182+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T15:33:22.186+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:33:22.186+0000] {dag.py:3229} INFO - Sync 3 DAGs
+[2024-09-18T15:33:22.191+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:33:22.191+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-09-18T15:33:22.192+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:33:22.192+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T15:33:22.192+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:33:22.192+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T15:33:22.193+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:33:22.193+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-18T15:33:22.194+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:33:22.194+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T15:33:22.194+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:33:22.194+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T15:33:22.198+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.051 seconds
+[2024-09-18T15:34:33.367+0000] {processor.py:186} INFO - Started process (PID=98952) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:34:33.368+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-09-18T15:34:33.369+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:34:33.369+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:34:33.399+0000] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:34:33.404+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:34:33.404+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T15:34:33.409+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:34:33.409+0000] {dag.py:3229} INFO - Sync 3 DAGs
+[2024-09-18T15:34:33.414+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:34:33.414+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-09-18T15:34:33.415+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:34:33.415+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T15:34:33.415+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:34:33.415+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T15:34:33.417+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:34:33.417+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-18T15:34:33.418+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:34:33.418+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T15:34:33.418+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:34:33.418+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T15:34:33.422+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.056 seconds
+[2024-09-18T15:35:53.385+0000] {processor.py:186} INFO - Started process (PID=99113) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:35:53.385+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-09-18T15:35:53.386+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:35:53.386+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:35:53.415+0000] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-09-18T15:35:53.419+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:35:53.419+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-18T15:35:53.424+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:35:53.424+0000] {dag.py:3229} INFO - Sync 3 DAGs
+[2024-09-18T15:35:53.429+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:35:53.429+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-09-18T15:35:53.430+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:35:53.430+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T15:35:53.430+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:35:53.430+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T15:35:53.432+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:35:53.432+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-18T15:35:53.433+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:35:53.433+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-09-18T15:35:53.433+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:35:53.433+0000] {dag.py:4156} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-09-18T15:35:53.437+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.053 seconds

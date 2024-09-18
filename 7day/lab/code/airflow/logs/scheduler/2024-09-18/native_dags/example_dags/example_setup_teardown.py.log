@@ -1,0 +1,106 @@
+[2024-09-18T14:49:00.406+0000] {processor.py:186} INFO - Started process (PID=93922) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T14:49:00.407+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-09-18T14:49:00.407+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:00.407+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T14:49:00.410+0000] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T14:49:00.478+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:00.478+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_setup_teardown
+[2024-09-18T14:49:00.481+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:00.481+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_setup_teardown
+[2024-09-18T14:49:00.483+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:00.483+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:example_setup_teardown
+[2024-09-18T14:49:00.485+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:00.485+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_setup_teardown
+[2024-09-18T14:49:00.486+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:00.486+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_setup_teardown
+[2024-09-18T14:49:00.488+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:00.488+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_setup_teardown
+[2024-09-18T14:49:00.490+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:00.490+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_setup_teardown
+[2024-09-18T14:49:00.490+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:00.490+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:49:00.494+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:00.494+0000] {dag.py:3252} INFO - Creating ORM DAG for example_setup_teardown
+[2024-09-18T14:49:00.494+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:00.494+0000] {dag.py:4156} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-09-18T14:49:00.499+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.093 seconds
+[2024-09-18T14:50:21.458+0000] {processor.py:186} INFO - Started process (PID=94186) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T14:50:21.459+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-09-18T14:50:21.460+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:50:21.460+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T14:50:21.462+0000] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T14:50:21.489+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:50:21.489+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:50:21.492+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:50:21.492+0000] {dag.py:4156} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-09-18T14:50:21.497+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.039 seconds
+[2024-09-18T14:51:59.224+0000] {processor.py:186} INFO - Started process (PID=94413) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T14:51:59.226+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-09-18T14:51:59.226+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:59.226+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T14:51:59.229+0000] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T14:51:59.258+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:59.258+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:51:59.261+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:59.261+0000] {dag.py:4156} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-09-18T14:51:59.267+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2024-09-18T14:53:39.541+0000] {processor.py:186} INFO - Started process (PID=94576) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T14:53:39.542+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-09-18T14:53:39.542+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:39.542+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T14:53:39.545+0000] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T14:53:39.572+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:39.572+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:53:39.575+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:39.575+0000] {dag.py:4156} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-09-18T14:53:39.580+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.040 seconds
+[2024-09-18T15:21:20.747+0000] {processor.py:186} INFO - Started process (PID=97160) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:21:20.748+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-09-18T15:21:20.748+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:21:20.748+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:21:20.750+0000] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:21:20.777+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:21:20.777+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:21:20.780+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:21:20.780+0000] {dag.py:4156} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-09-18T15:21:20.785+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.040 seconds
+[2024-09-18T15:22:40.576+0000] {processor.py:186} INFO - Started process (PID=97293) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:22:40.577+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-09-18T15:22:40.577+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:40.577+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:22:40.580+0000] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:22:40.609+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:40.609+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:22:40.612+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:40.612+0000] {dag.py:4156} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-09-18T15:22:40.619+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2024-09-18T15:25:43.452+0000] {processor.py:186} INFO - Started process (PID=97629) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:25:43.454+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-09-18T15:25:43.454+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:25:43.454+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:25:43.456+0000] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:25:43.484+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:25:43.484+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:25:43.487+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:25:43.487+0000] {dag.py:4156} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-09-18T15:25:43.492+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.041 seconds
+[2024-09-18T15:27:03.922+0000] {processor.py:186} INFO - Started process (PID=97789) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:27:03.923+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-09-18T15:27:03.923+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:27:03.923+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:27:03.926+0000] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:27:03.953+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:27:03.953+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:27:03.957+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:27:03.957+0000] {dag.py:4156} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-09-18T15:27:03.962+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.040 seconds
+[2024-09-18T15:28:24.893+0000] {processor.py:186} INFO - Started process (PID=97991) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:28:24.894+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-09-18T15:28:24.894+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:24.894+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:28:24.897+0000] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:28:24.924+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:24.924+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:28:24.927+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:24.927+0000] {dag.py:4156} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-09-18T15:28:24.932+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.040 seconds
+[2024-09-18T15:30:02.759+0000] {processor.py:186} INFO - Started process (PID=98231) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:30:02.760+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-09-18T15:30:02.761+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:30:02.761+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:30:02.763+0000] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:30:02.790+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:30:02.790+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:30:02.793+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:30:02.793+0000] {dag.py:4156} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-09-18T15:30:02.798+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.040 seconds
+[2024-09-18T15:31:39.450+0000] {processor.py:186} INFO - Started process (PID=98525) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:31:39.451+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-09-18T15:31:39.452+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:39.452+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:31:39.454+0000] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:31:39.481+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:39.481+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:31:39.484+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:39.484+0000] {dag.py:4156} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-09-18T15:31:39.489+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.040 seconds
+[2024-09-18T15:33:30.091+0000] {processor.py:186} INFO - Started process (PID=98821) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:33:30.092+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-09-18T15:33:30.092+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:33:30.092+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:33:30.095+0000] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:33:30.122+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:33:30.122+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:33:30.125+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:33:30.124+0000] {dag.py:4156} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-09-18T15:33:30.130+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.040 seconds
+[2024-09-18T15:34:41.301+0000] {processor.py:186} INFO - Started process (PID=98974) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:34:41.302+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-09-18T15:34:41.302+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:34:41.302+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:34:41.305+0000] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:34:41.336+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:34:41.336+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:34:41.340+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:34:41.340+0000] {dag.py:4156} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-09-18T15:34:41.346+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.046 seconds
+[2024-09-18T15:36:01.576+0000] {processor.py:186} INFO - Started process (PID=99128) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:36:01.576+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-09-18T15:36:01.576+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:36:01.576+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:36:01.579+0000] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-18T15:36:01.606+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:36:01.606+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:36:01.609+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:36:01.609+0000] {dag.py:4156} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-09-18T15:36:01.615+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.040 seconds

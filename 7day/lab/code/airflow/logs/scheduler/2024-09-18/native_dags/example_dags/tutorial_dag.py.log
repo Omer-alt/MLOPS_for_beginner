@@ -1,0 +1,169 @@
+[2024-09-18T14:48:37.873+0000] {processor.py:186} INFO - Started process (PID=93857) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:48:37.874+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T14:48:37.874+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:37.874+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:48:37.882+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:48:37.950+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:37.950+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2024-09-18T14:48:37.953+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:37.953+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2024-09-18T14:48:37.955+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:37.955+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2024-09-18T14:48:37.957+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:37.957+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:tutorial_dag
+[2024-09-18T14:48:37.959+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:37.959+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:tutorial_dag
+[2024-09-18T14:48:37.960+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:37.960+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:tutorial_dag
+[2024-09-18T14:48:37.962+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:37.962+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:tutorial_dag
+[2024-09-18T14:48:37.962+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:37.962+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:48:37.965+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:37.965+0000] {dag.py:3252} INFO - Creating ORM DAG for tutorial_dag
+[2024-09-18T14:48:37.965+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:48:37.965+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T14:48:37.970+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.097 seconds
+[2024-09-18T14:49:57.999+0000] {processor.py:186} INFO - Started process (PID=94106) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:49:57.999+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T14:49:57.999+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:57.999+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:49:58.007+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:49:58.033+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:58.033+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:49:58.037+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:49:58.036+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T14:49:58.063+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.065 seconds
+[2024-09-18T14:50:47.808+0000] {processor.py:186} INFO - Started process (PID=94237) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:50:47.809+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T14:50:47.809+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:50:47.809+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:50:47.816+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:50:47.840+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:50:47.840+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:50:47.843+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:50:47.843+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T14:50:47.869+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.062 seconds
+[2024-09-18T14:51:36.578+0000] {processor.py:186} INFO - Started process (PID=94356) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:51:36.579+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T14:51:36.579+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:36.579+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:51:36.586+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:51:36.611+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:36.611+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:51:36.613+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:51:36.613+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T14:51:36.639+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2024-09-18T14:52:27.574+0000] {processor.py:186} INFO - Started process (PID=94468) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:52:27.575+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T14:52:27.575+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:52:27.575+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:52:27.584+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:52:27.610+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:52:27.609+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:52:27.613+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:52:27.613+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T14:52:27.639+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.066 seconds
+[2024-09-18T14:53:18.344+0000] {processor.py:186} INFO - Started process (PID=94549) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:53:18.345+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T14:53:18.345+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:18.345+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:53:18.352+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:53:18.376+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:18.376+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:53:18.379+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:53:18.379+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T14:53:18.403+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2024-09-18T14:54:08.204+0000] {processor.py:186} INFO - Started process (PID=94633) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:54:08.205+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T14:54:08.205+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:54:08.205+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:54:08.212+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:54:08.238+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:54:08.238+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:54:08.241+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:54:08.241+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T14:54:08.267+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
+[2024-09-18T14:54:56.918+0000] {processor.py:186} INFO - Started process (PID=94747) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:54:56.919+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T14:54:56.919+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:54:56.919+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:54:56.926+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T14:54:56.951+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:54:56.951+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T14:54:56.954+0000] {logging_mixin.py:190} INFO - [2024-09-18T14:54:56.954+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T14:54:56.979+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.062 seconds
+[2024-09-18T15:12:33.922+0000] {processor.py:186} INFO - Started process (PID=96579) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:12:33.923+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T15:12:33.923+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:12:33.923+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:12:33.930+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:12:33.955+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:12:33.955+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:12:33.958+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:12:33.958+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T15:12:33.987+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.066 seconds
+[2024-09-18T15:20:58.257+0000] {processor.py:186} INFO - Started process (PID=97121) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:20:58.258+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T15:20:58.259+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:20:58.258+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:20:58.265+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:20:58.290+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:20:58.290+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:20:58.293+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:20:58.293+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T15:20:58.319+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.062 seconds
+[2024-09-18T15:22:17.151+0000] {processor.py:186} INFO - Started process (PID=97262) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:22:17.153+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T15:22:17.153+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:17.153+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:22:17.161+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:22:17.191+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:17.190+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:22:17.194+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:22:17.194+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T15:22:17.228+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.078 seconds
+[2024-09-18T15:23:06.686+0000] {processor.py:186} INFO - Started process (PID=97343) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:23:06.686+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T15:23:06.687+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:23:06.687+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:23:06.695+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:23:06.722+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:23:06.722+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:23:06.726+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:23:06.726+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T15:23:06.758+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.073 seconds
+[2024-09-18T15:25:20.795+0000] {processor.py:186} INFO - Started process (PID=97593) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:25:20.797+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T15:25:20.797+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:25:20.797+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:25:20.804+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:25:20.830+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:25:20.829+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:25:20.833+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:25:20.833+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T15:25:20.858+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.064 seconds
+[2024-09-18T15:26:41.634+0000] {processor.py:186} INFO - Started process (PID=97740) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:26:41.635+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T15:26:41.635+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:26:41.635+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:26:41.642+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:26:41.667+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:26:41.667+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:26:41.670+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:26:41.670+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T15:26:41.696+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
+[2024-09-18T15:28:01.947+0000] {processor.py:186} INFO - Started process (PID=97881) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:28:01.948+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T15:28:01.948+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:01.948+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:28:01.957+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:28:01.984+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:01.984+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:28:01.988+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:01.987+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T15:28:02.018+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.072 seconds
+[2024-09-18T15:28:52.866+0000] {processor.py:186} INFO - Started process (PID=98049) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:28:52.867+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T15:28:52.868+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:52.868+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:28:52.874+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:28:52.900+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:52.900+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:28:52.903+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:28:52.902+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T15:28:52.928+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
+[2024-09-18T15:29:42.150+0000] {processor.py:186} INFO - Started process (PID=98173) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:29:42.151+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T15:29:42.151+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:29:42.151+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:29:42.159+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:29:42.187+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:29:42.187+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:29:42.191+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:29:42.190+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T15:29:42.227+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.078 seconds
+[2024-09-18T15:30:30.365+0000] {processor.py:186} INFO - Started process (PID=98309) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:30:30.365+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T15:30:30.366+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:30:30.366+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:30:30.374+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:30:30.407+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:30:30.407+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:30:30.410+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:30:30.410+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T15:30:30.476+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.112 seconds
+[2024-09-18T15:31:19.391+0000] {processor.py:186} INFO - Started process (PID=98448) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:31:19.392+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T15:31:19.392+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:19.392+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:31:19.398+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:31:19.424+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:19.424+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:31:19.427+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:31:19.427+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T15:31:19.452+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.062 seconds
+[2024-09-18T15:32:07.402+0000] {processor.py:186} INFO - Started process (PID=98618) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:32:07.402+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T15:32:07.403+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:32:07.402+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:32:07.409+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:32:07.435+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:32:07.435+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:32:07.438+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:32:07.437+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T15:32:07.463+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.062 seconds
+[2024-09-18T15:33:07.779+0000] {processor.py:186} INFO - Started process (PID=98748) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:33:07.779+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T15:33:07.780+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:33:07.780+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:33:07.787+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:33:07.812+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:33:07.812+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:33:07.816+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:33:07.815+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T15:33:07.842+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.064 seconds
+[2024-09-18T15:34:18.635+0000] {processor.py:186} INFO - Started process (PID=98926) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:34:18.637+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T15:34:18.637+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:34:18.637+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:34:18.644+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:34:18.670+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:34:18.670+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:34:18.673+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:34:18.673+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T15:34:18.700+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.066 seconds
+[2024-09-18T15:35:39.813+0000] {processor.py:186} INFO - Started process (PID=99089) to work on /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:35:39.813+0000] {processor.py:914} INFO - Processing file /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-09-18T15:35:39.813+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:35:39.813+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:35:39.820+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-09-18T15:35:39.846+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:35:39.845+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-18T15:35:39.849+0000] {logging_mixin.py:190} INFO - [2024-09-18T15:35:39.849+0000] {dag.py:4156} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-09-18T15:35:39.875+0000] {processor.py:208} INFO - Processing /Users/omer/Desktop/MLOPS/7day/.env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
