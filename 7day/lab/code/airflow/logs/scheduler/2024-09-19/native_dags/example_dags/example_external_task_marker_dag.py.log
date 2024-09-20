@@ -1,0 +1,130 @@
+[2024-09-19T00:51:24.536+0000] {processor.py:186} INFO - Started process (PID=24598) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T00:51:24.536+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-09-19T00:51:24.536+0000] {logging_mixin.py:190} INFO - [2024-09-19T00:51:24.536+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T00:51:24.540+0000] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T00:51:24.618+0000] {logging_mixin.py:190} INFO - [2024-09-19T00:51:24.618+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T00:51:24.618+0000] {logging_mixin.py:190} INFO - [2024-09-19T00:51:24.618+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T00:51:24.767+0000] {logging_mixin.py:190} INFO - [2024-09-19T00:51:24.767+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-19T00:51:24.770+0000] {logging_mixin.py:190} INFO - [2024-09-19T00:51:24.770+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-09-19T00:51:24.771+0000] {logging_mixin.py:190} INFO - [2024-09-19T00:51:24.771+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-09-19T00:51:24.776+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.241 seconds
+[2024-09-19T01:40:57.973+0000] {processor.py:186} INFO - Started process (PID=24713) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T01:40:57.975+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-09-19T01:40:57.975+0000] {logging_mixin.py:190} INFO - [2024-09-19T01:40:57.975+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T01:40:57.978+0000] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T01:40:58.046+0000] {logging_mixin.py:190} INFO - [2024-09-19T01:40:58.046+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T01:40:58.046+0000] {logging_mixin.py:190} INFO - [2024-09-19T01:40:58.046+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T01:40:58.174+0000] {logging_mixin.py:190} INFO - [2024-09-19T01:40:58.174+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-19T01:40:58.177+0000] {logging_mixin.py:190} INFO - [2024-09-19T01:40:58.177+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-09-19T01:40:58.178+0000] {logging_mixin.py:190} INFO - [2024-09-19T01:40:58.178+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-09-19T01:40:58.183+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.211 seconds
+[2024-09-19T02:05:00.952+0000] {processor.py:186} INFO - Started process (PID=24834) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T02:05:00.952+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-09-19T02:05:00.952+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:05:00.952+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T02:05:00.956+0000] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T02:05:01.042+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:05:01.042+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T02:05:01.042+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:05:01.042+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T02:05:01.224+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:05:01.224+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-19T02:05:01.227+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:05:01.227+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-09-19T02:05:01.228+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:05:01.228+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-09-19T02:05:01.233+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.282 seconds
+[2024-09-19T02:43:38.519+0000] {processor.py:186} INFO - Started process (PID=24962) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T02:43:38.520+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-09-19T02:43:38.520+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:43:38.520+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T02:43:38.524+0000] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T02:43:38.607+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:43:38.607+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T02:43:38.607+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:43:38.607+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T02:43:38.755+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:43:38.754+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-19T02:43:38.758+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:43:38.757+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-09-19T02:43:38.758+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:43:38.758+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-09-19T02:43:38.763+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.245 seconds
+[2024-09-19T03:21:05.482+0000] {processor.py:186} INFO - Started process (PID=25061) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T03:21:05.483+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-09-19T03:21:05.483+0000] {logging_mixin.py:190} INFO - [2024-09-19T03:21:05.483+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T03:21:05.487+0000] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T03:21:05.583+0000] {logging_mixin.py:190} INFO - [2024-09-19T03:21:05.583+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T03:21:05.584+0000] {logging_mixin.py:190} INFO - [2024-09-19T03:21:05.583+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T03:21:05.750+0000] {logging_mixin.py:190} INFO - [2024-09-19T03:21:05.750+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-19T03:21:05.753+0000] {logging_mixin.py:190} INFO - [2024-09-19T03:21:05.753+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-09-19T03:21:05.754+0000] {logging_mixin.py:190} INFO - [2024-09-19T03:21:05.754+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-09-19T03:21:05.758+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.277 seconds
+[2024-09-19T04:00:16.344+0000] {processor.py:186} INFO - Started process (PID=25228) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T04:00:16.345+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-09-19T04:00:16.345+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:00:16.345+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T04:00:16.349+0000] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T04:00:16.441+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:00:16.440+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T04:00:16.441+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:00:16.441+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T04:00:16.648+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:00:16.648+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-19T04:00:16.651+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:00:16.651+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-09-19T04:00:16.653+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:00:16.653+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-09-19T04:00:16.658+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.314 seconds
+[2024-09-19T04:23:36.256+0000] {processor.py:186} INFO - Started process (PID=25343) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T04:23:36.256+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-09-19T04:23:36.257+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:23:36.257+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T04:23:36.261+0000] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T04:23:36.341+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:23:36.341+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T04:23:36.341+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:23:36.341+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T04:23:36.488+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:23:36.487+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-19T04:23:36.490+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:23:36.490+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-09-19T04:23:36.491+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:23:36.491+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-09-19T04:23:36.496+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.241 seconds
+[2024-09-19T05:00:01.142+0000] {processor.py:186} INFO - Started process (PID=25467) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T05:00:01.142+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-09-19T05:00:01.142+0000] {logging_mixin.py:190} INFO - [2024-09-19T05:00:01.142+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T05:00:01.146+0000] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T05:00:01.224+0000] {logging_mixin.py:190} INFO - [2024-09-19T05:00:01.224+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T05:00:01.224+0000] {logging_mixin.py:190} INFO - [2024-09-19T05:00:01.224+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T05:00:01.369+0000] {logging_mixin.py:190} INFO - [2024-09-19T05:00:01.369+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-19T05:00:01.372+0000] {logging_mixin.py:190} INFO - [2024-09-19T05:00:01.372+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-09-19T05:00:01.373+0000] {logging_mixin.py:190} INFO - [2024-09-19T05:00:01.373+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-09-19T05:00:01.378+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.237 seconds
+[2024-09-19T05:40:45.174+0000] {processor.py:186} INFO - Started process (PID=25582) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T05:40:45.175+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-09-19T05:40:45.175+0000] {logging_mixin.py:190} INFO - [2024-09-19T05:40:45.175+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T05:40:45.178+0000] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T05:40:45.268+0000] {logging_mixin.py:190} INFO - [2024-09-19T05:40:45.268+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T05:40:45.268+0000] {logging_mixin.py:190} INFO - [2024-09-19T05:40:45.268+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T05:40:45.496+0000] {logging_mixin.py:190} INFO - [2024-09-19T05:40:45.495+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-19T05:40:45.499+0000] {logging_mixin.py:190} INFO - [2024-09-19T05:40:45.499+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-09-19T05:40:45.500+0000] {logging_mixin.py:190} INFO - [2024-09-19T05:40:45.500+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-09-19T05:40:45.505+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.331 seconds
+[2024-09-19T06:15:17.403+0000] {processor.py:186} INFO - Started process (PID=25713) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T06:15:17.404+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-09-19T06:15:17.404+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:15:17.404+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T06:15:17.407+0000] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T06:15:17.487+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:15:17.487+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T06:15:17.488+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:15:17.488+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T06:15:17.633+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:15:17.633+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-19T06:15:17.636+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:15:17.636+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-09-19T06:15:17.637+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:15:17.637+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-09-19T06:15:17.641+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.239 seconds
+[2024-09-19T06:17:53.878+0000] {processor.py:186} INFO - Started process (PID=25912) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T06:17:53.878+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-09-19T06:17:53.879+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:17:53.879+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T06:17:53.883+0000] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T06:17:53.971+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:17:53.971+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T06:17:53.971+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:17:53.971+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T06:17:54.131+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:17:54.130+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-19T06:17:54.134+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:17:54.134+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-09-19T06:17:54.135+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:17:54.135+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-09-19T06:17:54.140+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.264 seconds
+[2024-09-19T06:22:11.968+0000] {processor.py:186} INFO - Started process (PID=26327) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T06:22:11.970+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-09-19T06:22:11.970+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:22:11.970+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T06:22:11.974+0000] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T06:22:12.052+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:22:12.052+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T06:22:12.052+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:22:12.052+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T06:22:12.197+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:22:12.197+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-19T06:22:12.200+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:22:12.200+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-09-19T06:22:12.201+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:22:12.201+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-09-19T06:22:12.205+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.238 seconds
+[2024-09-19T06:24:31.250+0000] {processor.py:186} INFO - Started process (PID=26486) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T06:24:31.250+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-09-19T06:24:31.250+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:24:31.250+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T06:24:31.254+0000] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-09-19T06:24:31.325+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:24:31.325+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T06:24:31.325+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:24:31.325+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T06:24:31.439+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:24:31.439+0000] {dag.py:3229} INFO - Sync 2 DAGs
+[2024-09-19T06:24:31.443+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:24:31.442+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-09-19T06:24:31.443+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:24:31.443+0000] {dag.py:4156} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-09-19T06:24:31.448+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.200 seconds

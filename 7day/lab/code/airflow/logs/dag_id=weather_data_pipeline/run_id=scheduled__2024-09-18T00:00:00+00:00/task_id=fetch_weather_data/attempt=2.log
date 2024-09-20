@@ -1,0 +1,50 @@
+[2024-09-19T15:43:45.853+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-19T15:43:45.884+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_data_pipeline.fetch_weather_data scheduled__2024-09-18T00:00:00+00:00 [queued]>
+[2024-09-19T15:43:45.888+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_data_pipeline.fetch_weather_data scheduled__2024-09-18T00:00:00+00:00 [queued]>
+[2024-09-19T15:43:45.888+0000] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2024-09-19T15:43:45.894+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): fetch_weather_data> on 2024-09-18 00:00:00+00:00
+[2024-09-19T15:43:45.897+0000] {standard_task_runner.py:72} INFO - Started process 46879 to run task
+[2024-09-19T15:43:45.902+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'weather_data_pipeline', 'fetch_weather_data', 'scheduled__2024-09-18T00:00:00+00:00', '--job-id', '34', '--raw', '--subdir', 'DAGS_FOLDER/weather_dag.py', '--cfg-path', '/var/folders/gv/71l1ft2j16519jw9fxm_939h0000gn/T/tmpahxrjglx']
+[2024-09-19T15:43:45.906+0000] {standard_task_runner.py:105} INFO - Job 34: Subtask fetch_weather_data
+[2024-09-19T15:43:46.007+0000] {task_command.py:467} INFO - Running <TaskInstance: weather_data_pipeline.fetch_weather_data scheduled__2024-09-18T00:00:00+00:00 [running]> on host FOTSOs-MacBook-Pro.local
+[2024-09-19T15:43:46.025+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='weather_data_pipeline' AIRFLOW_CTX_TASK_ID='fetch_weather_data' AIRFLOW_CTX_EXECUTION_DATE='2024-09-18T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-09-18T00:00:00+00:00'
+[2024-09-19T15:43:46.025+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-19T15:43:46.033+0000] {logging_mixin.py:190} INFO - Hello word
+[2024-09-19T16:42:25.836+0000] {job.py:229} INFO - Heartbeat recovered after 12.06 seconds
+[2024-09-19T16:47:01.897+0000] {job.py:229} INFO - Heartbeat recovered after 276.06 seconds
+[2024-09-19T17:10:01.492+0000] {job.py:229} INFO - Heartbeat recovered after 163.44 seconds
+[2024-09-19T17:19:03.312+0000] {job.py:229} INFO - Heartbeat recovered after 536.80 seconds
+[2024-09-19T17:35:14.618+0000] {job.py:229} INFO - Heartbeat recovered after 966.28 seconds
+[2024-09-19T17:36:04.794+0000] {job.py:229} INFO - Heartbeat recovered after 50.18 seconds
+[2024-09-19T17:51:40.792+0000] {job.py:229} INFO - Heartbeat recovered after 930.98 seconds
+[2024-09-19T17:52:10.753+0000] {job.py:229} INFO - Heartbeat recovered after 29.96 seconds
+[2024-09-19T17:52:50.770+0000] {job.py:229} INFO - Heartbeat recovered after 29.97 seconds
+[2024-09-19T17:53:20.697+0000] {job.py:229} INFO - Heartbeat recovered after 29.93 seconds
+[2024-09-19T17:53:55.700+0000] {job.py:229} INFO - Heartbeat recovered after 29.98 seconds
+[2024-09-19T17:54:25.673+0000] {job.py:229} INFO - Heartbeat recovered after 29.97 seconds
+[2024-09-19T18:11:31.764+0000] {job.py:229} INFO - Heartbeat recovered after 1021.05 seconds
+[2024-09-19T18:12:01.721+0000] {job.py:229} INFO - Heartbeat recovered after 29.96 seconds
+[2024-09-19T18:12:36.692+0000] {job.py:229} INFO - Heartbeat recovered after 29.94 seconds
+[2024-09-19T18:13:06.618+0000] {job.py:229} INFO - Heartbeat recovered after 29.93 seconds
+[2024-09-19T18:13:41.599+0000] {job.py:229} INFO - Heartbeat recovered after 29.96 seconds
+[2024-09-19T18:14:11.578+0000] {job.py:229} INFO - Heartbeat recovered after 29.98 seconds
+[2024-09-19T18:14:46.533+0000] {job.py:229} INFO - Heartbeat recovered after 29.94 seconds
+[2024-09-19T18:31:57.417+0000] {job.py:229} INFO - Heartbeat recovered after 1030.89 seconds
+[2024-09-19T18:32:27.355+0000] {job.py:229} INFO - Heartbeat recovered after 29.94 seconds
+[2024-09-19T18:33:07.371+0000] {job.py:229} INFO - Heartbeat recovered after 29.95 seconds
+[2024-09-19T18:33:37.327+0000] {job.py:229} INFO - Heartbeat recovered after 29.96 seconds
+[2024-09-19T18:34:12.312+0000] {job.py:229} INFO - Heartbeat recovered after 29.97 seconds
+[2024-09-19T18:50:04.276+0000] {job.py:229} INFO - Heartbeat recovered after 931.82 seconds
+[2024-09-19T18:50:39.259+0000] {job.py:229} INFO - Heartbeat recovered after 29.97 seconds
+[2024-09-19T18:51:14.249+0000] {job.py:229} INFO - Heartbeat recovered after 29.95 seconds
+[2024-09-19T18:51:49.207+0000] {job.py:229} INFO - Heartbeat recovered after 29.94 seconds
+[2024-09-19T18:52:19.144+0000] {job.py:229} INFO - Heartbeat recovered after 29.94 seconds
+[2024-09-19T18:52:54.081+0000] {job.py:229} INFO - Heartbeat recovered after 29.93 seconds
+[2024-09-19T19:01:25.056+0000] {job.py:229} INFO - Heartbeat recovered after 510.98 seconds
+[2024-09-19T19:02:45.255+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-09-19T19:02:45.261+0000] {process_utils.py:132} INFO - Sending 15 to group 46879. PIDs of all processes in the group: [46879]
+[2024-09-19T19:02:45.261+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 46879
+[2024-09-19T19:02:52.570+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-19T19:02:52.573+0000] {taskinstance.py:2602} INFO - Dependencies not met for <TaskInstance: weather_data_pipeline.fetch_weather_data scheduled__2024-09-18T00:00:00+00:00 [running]>, dependency 'Task Instance State' FAILED: Task is in the 'running' state.
+[2024-09-19T19:02:52.574+0000] {taskinstance.py:2602} INFO - Dependencies not met for <TaskInstance: weather_data_pipeline.fetch_weather_data scheduled__2024-09-18T00:00:00+00:00 [running]>, dependency 'Task Instance Not Running' FAILED: Task is in the running state
+[2024-09-19T19:02:52.574+0000] {local_task_job_runner.py:166} INFO - Task is not able to be run

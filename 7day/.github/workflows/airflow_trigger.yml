@@ -1,0 +1,22 @@
+name: Airflow Triggered Workflow
+
+# Allow manual triggering via workflow dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      temperature:
+        description: 'Temperature data passed from Airflow'
+        required: true
+        default: '0.0'  # Default temperature value
+
+jobs:
+  echo_temperature:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Check out the repository
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      # Step 2: Echo the temperature value
+      - name: Echo Temperature
+        run: echo "Received temperature: ${{ github.event.inputs.temperature }}"

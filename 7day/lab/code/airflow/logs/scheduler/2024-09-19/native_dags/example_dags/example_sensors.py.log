@@ -1,0 +1,151 @@
+[2024-09-19T00:14:29.146+0000] {processor.py:186} INFO - Started process (PID=24487) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T00:14:29.146+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-19T00:14:29.146+0000] {logging_mixin.py:190} INFO - [2024-09-19T00:14:29.146+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T00:14:29.152+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T00:14:29.239+0000] {logging_mixin.py:190} INFO - [2024-09-19T00:14:29.239+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T00:14:29.239+0000] {logging_mixin.py:190} INFO - [2024-09-19T00:14:29.239+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T00:14:29.389+0000] {logging_mixin.py:190} INFO - [2024-09-19T00:14:29.389+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T00:14:29.392+0000] {logging_mixin.py:190} INFO - [2024-09-19T00:14:29.392+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-19T00:14:29.398+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.253 seconds
+[2024-09-19T00:34:25.473+0000] {processor.py:186} INFO - Started process (PID=24574) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T00:34:25.474+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-19T00:34:25.474+0000] {logging_mixin.py:190} INFO - [2024-09-19T00:34:25.474+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T00:34:25.480+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T00:34:50.734+0000] {logging_mixin.py:190} INFO - [2024-09-19T00:34:50.734+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T00:34:50.734+0000] {logging_mixin.py:190} INFO - [2024-09-19T00:34:50.734+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T00:34:50.870+0000] {logging_mixin.py:190} INFO - [2024-09-19T00:34:50.870+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T00:34:50.873+0000] {logging_mixin.py:190} INFO - [2024-09-19T00:34:50.873+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-19T00:34:50.878+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.488 seconds
+[2024-09-19T01:27:57.283+0000] {processor.py:186} INFO - Started process (PID=24683) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T01:27:57.284+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-19T01:27:57.284+0000] {logging_mixin.py:190} INFO - [2024-09-19T01:27:57.284+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T01:27:57.290+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T01:27:57.355+0000] {logging_mixin.py:190} INFO - [2024-09-19T01:27:57.355+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T01:27:57.355+0000] {logging_mixin.py:190} INFO - [2024-09-19T01:27:57.355+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T01:27:57.467+0000] {logging_mixin.py:190} INFO - [2024-09-19T01:27:57.467+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T01:27:57.470+0000] {logging_mixin.py:190} INFO - [2024-09-19T01:27:57.470+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-19T01:27:57.475+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.193 seconds
+[2024-09-19T02:03:20.598+0000] {processor.py:186} INFO - Started process (PID=24809) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T02:03:20.599+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-19T02:03:20.599+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:03:20.599+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T02:03:20.604+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T02:03:20.685+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:03:20.685+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T02:03:20.686+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:03:20.686+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T02:03:20.833+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:03:20.832+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T02:03:20.836+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:03:20.835+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-19T02:03:20.841+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.244 seconds
+[2024-09-19T02:41:56.609+0000] {processor.py:186} INFO - Started process (PID=24927) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T02:41:56.609+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-19T02:41:56.609+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:41:56.609+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T02:41:56.615+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T02:41:56.692+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:41:56.692+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T02:41:56.692+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:41:56.692+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T02:41:56.841+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:41:56.841+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T02:41:56.844+0000] {logging_mixin.py:190} INFO - [2024-09-19T02:41:56.844+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-19T02:41:56.849+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.242 seconds
+[2024-09-19T03:04:48.387+0000] {processor.py:186} INFO - Started process (PID=25036) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T03:04:48.388+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-19T03:04:48.388+0000] {logging_mixin.py:190} INFO - [2024-09-19T03:04:48.388+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T03:04:48.394+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T03:04:48.473+0000] {logging_mixin.py:190} INFO - [2024-09-19T03:04:48.473+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T03:04:48.473+0000] {logging_mixin.py:190} INFO - [2024-09-19T03:04:48.473+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T03:04:48.626+0000] {logging_mixin.py:190} INFO - [2024-09-19T03:04:48.626+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T03:04:48.629+0000] {logging_mixin.py:190} INFO - [2024-09-19T03:04:48.629+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-19T03:04:48.635+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.249 seconds
+[2024-09-19T03:42:32.170+0000] {processor.py:186} INFO - Started process (PID=25188) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T03:42:32.171+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-19T03:42:32.172+0000] {logging_mixin.py:190} INFO - [2024-09-19T03:42:32.171+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T03:42:32.177+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T03:42:32.243+0000] {logging_mixin.py:190} INFO - [2024-09-19T03:42:32.243+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T03:42:32.243+0000] {logging_mixin.py:190} INFO - [2024-09-19T03:42:32.243+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T03:42:32.354+0000] {logging_mixin.py:190} INFO - [2024-09-19T03:42:32.354+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T03:42:32.357+0000] {logging_mixin.py:190} INFO - [2024-09-19T03:42:32.357+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-19T03:42:32.363+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.194 seconds
+[2024-09-19T04:21:56.263+0000] {processor.py:186} INFO - Started process (PID=25310) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T04:21:56.264+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-19T04:21:56.264+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:21:56.264+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T04:21:56.270+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T04:21:56.347+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:21:56.346+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T04:21:56.347+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:21:56.347+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T04:21:56.486+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:21:56.486+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T04:21:56.489+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:21:56.489+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-19T04:21:56.494+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.232 seconds
+[2024-09-19T04:58:46.322+0000] {processor.py:186} INFO - Started process (PID=25431) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T04:58:46.323+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-19T04:58:46.323+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:58:46.323+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T04:58:46.329+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T04:58:46.395+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:58:46.395+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T04:58:46.395+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:58:46.395+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T04:58:46.506+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:58:46.506+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T04:58:46.509+0000] {logging_mixin.py:190} INFO - [2024-09-19T04:58:46.509+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-19T04:58:46.514+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.193 seconds
+[2024-09-19T05:22:13.668+0000] {processor.py:186} INFO - Started process (PID=25546) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T05:22:13.669+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-19T05:22:13.669+0000] {logging_mixin.py:190} INFO - [2024-09-19T05:22:13.669+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T05:22:13.674+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T05:22:13.739+0000] {logging_mixin.py:190} INFO - [2024-09-19T05:22:13.739+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T05:22:13.739+0000] {logging_mixin.py:190} INFO - [2024-09-19T05:22:13.739+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T05:22:13.857+0000] {logging_mixin.py:190} INFO - [2024-09-19T05:22:13.857+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T05:22:13.860+0000] {logging_mixin.py:190} INFO - [2024-09-19T05:22:13.860+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-19T05:22:13.866+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.199 seconds
+[2024-09-19T06:00:54.419+0000] {processor.py:186} INFO - Started process (PID=25670) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:00:54.421+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-19T06:00:54.421+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:00:54.421+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:00:54.426+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:00:54.492+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:00:54.492+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T06:00:54.492+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:00:54.492+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T06:00:54.619+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:00:54.619+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T06:00:54.622+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:00:54.622+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-19T06:00:54.628+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.209 seconds
+[2024-09-19T06:16:16.130+0000] {processor.py:186} INFO - Started process (PID=25779) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:16:16.130+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-19T06:16:16.131+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:16:16.130+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:16:16.136+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:16:16.212+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:16:16.212+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T06:16:16.212+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:16:16.212+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T06:16:16.381+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:16:16.381+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T06:16:16.384+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:16:16.384+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-19T06:16:16.391+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.262 seconds
+[2024-09-19T06:17:36.855+0000] {processor.py:186} INFO - Started process (PID=25891) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:17:36.856+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-19T06:17:36.857+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:17:36.857+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:17:36.862+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:17:36.946+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:17:36.946+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T06:17:36.946+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:17:36.946+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T06:17:37.110+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:17:37.110+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T06:17:37.113+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:17:37.113+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-19T06:17:37.119+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.265 seconds
+[2024-09-19T06:20:00.903+0000] {processor.py:186} INFO - Started process (PID=26101) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:20:00.904+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-19T06:20:00.904+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:20:00.904+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:20:00.910+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:20:00.977+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:20:00.977+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T06:20:00.977+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:20:00.977+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T06:20:01.091+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:20:01.091+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T06:20:01.094+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:20:01.094+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-19T06:20:01.100+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.197 seconds
+[2024-09-19T06:21:45.717+0000] {processor.py:186} INFO - Started process (PID=26297) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:21:45.718+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-19T06:21:45.719+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:21:45.719+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:21:45.723+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:21:45.802+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:21:45.802+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T06:21:45.802+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:21:45.802+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T06:21:45.962+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:21:45.962+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T06:21:45.965+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:21:45.965+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-19T06:21:45.971+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.254 seconds
+[2024-09-19T06:23:27.745+0000] {processor.py:186} INFO - Started process (PID=26404) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:23:27.745+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-19T06:23:27.746+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:23:27.746+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:23:27.751+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:23:27.818+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:23:27.818+0000] {utils.py:148} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-09-19T06:23:27.818+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:23:27.818+0000] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-09-19T06:23:27.952+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:23:27.952+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T06:23:27.956+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:23:27.955+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-19T06:23:27.962+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.218 seconds
+[2024-09-19T06:25:44.660+0000] {processor.py:186} INFO - Started process (PID=26615) to work on /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:25:44.661+0000] {processor.py:914} INFO - Processing file /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-19T06:25:44.661+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:25:44.661+0000] {dagbag.py:587} INFO - Filling up the DagBag from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:25:44.668+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-19T06:25:44.708+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:25:44.708+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T06:25:44.711+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:25:44.711+0000] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-19T06:25:44.716+0000] {processor.py:208} INFO - Processing /Users/omer/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.057 seconds

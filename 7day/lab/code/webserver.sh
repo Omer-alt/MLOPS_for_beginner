@@ -7,9 +7,9 @@ airflow webserver --port 8080  # http://localhost:8080
 
 
 # airflow users create \
-#     --username admin \
-#     --firstname FOTSO \
-#     --lastname OMER \
+#     --username omer \
+#     --firstname omer \
+#     --lastname omer \
 #     --role Admin \
-#     --email spiderman@superhero.org \
-#     --password mlops_courses
+#     --email owafo@aimsammi.org \
+#     --password mlops_course
